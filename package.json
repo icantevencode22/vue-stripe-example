@@ -2,14 +2,15 @@
   "name": "vue-stripe-example",
   "version": "0.1.0",
   "homepage": "https://github.com/simeon-petrov-5/vue-dummy-billing-app",
-  "description": "this little project is created and used as a demo playground for an online seminar - VueJS - Come to the Green side",
+  "description": "Example project for integrating Stripe with Vue. You can find ways to use Single payment, Subscription/Recurring payments, creating customers, products, prices. The project is using Gridsome to take advantages on it's backend server while in dev so we have all connections in one project (you need a BE server too). ",
   "keywords": [
     "vue",
     "gridsome",
     "stripe",
     "learning",
     "javascript",
-    "demo"
+    "demo",
+    "example"
   ],
   "author": {
     "name": "Simeon Petrov",
