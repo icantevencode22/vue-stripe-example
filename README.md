@@ -17,9 +17,9 @@ You can get your Stripe keys from your dashboard
     STRIPE_SECRET - Stripe Secret key (should be hidden and used only in server)
 
 
-## Additional docs:
-- [E2E tests](docs/E2ETestWithTestCafe.md)
-- [Translations i18n](docs/Translations.md)
+## Additional notes/docs:
+- [Stripe Info](docs/StripeInfo.md)
+- [Stripe Notes](docs/StripeNotes.md)
 
 
 ## Project setup
