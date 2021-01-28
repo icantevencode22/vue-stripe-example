@@ -1,0 +1,14 @@
+{
+    "currency": "Three-letter ISO currency code, in lowercase. Must be a supported currency.",
+    "unit_amount": "A positive integer in stotinka (or 0 for a free price) representing how much to charge.",
+    "active": "Whether the price can be used for new purchases. Defaults to true.",
+    "metadata": "Set of key-value pairs that you can attach to an object.",
+    "nickname": "A brief description of the price, hidden from customers.",
+    "product": "The ID of the product that this price will belong to.",
+    "recurring": {
+        "interval": "Specifies billing frequency. Either day, week, month or year.",
+        "aggregate_usage": "Specifies a usage aggregation strategy for prices",
+        "interval_count": "The number of intervals between subscription billings. For example, interval=month and interval_count=3 bills every 3 months. Maximum of one year interval allowed (1 year, 12 months, or 52 weeks).",
+        "usage_type": "Configures how the quantity per period should be determined. Can be either metered or licensed. licensed automatically bills the quantity set when adding it to a subscription. metered aggregates the total usage based on usage records. Defaults to licensed."
+    }
+}

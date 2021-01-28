@@ -1,0 +1,21 @@
+{
+    "address": {
+        "city": "City, district, suburb, town, or village.",
+        "country": "Two-letter country code (ISO 3166-1 alpha-2).",
+        "line1": "Address line 1 (e.g., street, PO Box, or company name).",
+        "line2": "Address line 2 (e.g., apartment, suite, unit, or building).",
+        "postal_code": "ZIP or postal code.",
+        "state": "State, county, province, or region"
+    },
+    "description": "An arbitrary string. It is displayed alongside the customer in the dashboard.",
+    "email": "",
+    "metadata": "Set of key-value pairs that you can attach to an object. This can be useful for storing additional information",
+    "name": "",
+    "payment_method": "The ID of the PaymentMethod to attach to the customer.",
+    "phone": "",
+    "shipping": {
+        "address": "Customer shipping address.",
+        "name": "",
+        "phone": ""
+    }
+}

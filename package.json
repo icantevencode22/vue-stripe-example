@@ -1,0 +1,35 @@
+{
+  "name": "vue-stripe-example",
+  "version": "0.1.0",
+  "homepage": "https://github.com/simeon-petrov-5/vue-dummy-billing-app",
+  "description": "this little project is created and used as a demo playground for an online seminar - VueJS - Come to the Green side",
+  "keywords": [
+    "vue",
+    "gridsome",
+    "stripe",
+    "learning",
+    "javascript",
+    "demo"
+  ],
+  "author": {
+    "name": "Simeon Petrov",
+    "url": "https://github.com/simeon-petrov-5"
+  },
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "dev": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "element-ui": "^2.15.0",
+    "faker": "^5.1.0",
+    "gridsome": "^0.7.0",
+    "stripe": "^8.132.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "customer": "The identifier of the customer to subscribe.",
+    "items": {
+        "about_items": "A list of up to 20 subscription items, each with an attached price.",
+        "billing_thresholds": "Define thresholds at which an invoice will be sent",
+        "price": "The ID of the price object.",
+        "quantity": "Quantity for this item.",
+        "tax_rates": "A list of Tax Rate ids."
+    },
+    "cancel_at_period_end": "Boolean indicating whether this subscription should cancel at the end of the current period.",
+    "default_payment_method": "ID of the default payment method",
+    "metadata": "Set of key-value pairs that you can attach to an object."
+}
