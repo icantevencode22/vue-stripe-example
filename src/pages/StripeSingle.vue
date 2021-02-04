@@ -1,12 +1,12 @@
 <template>
   <Layout>
-    <div class="card" v-loading="isLoading">
+    <div class="componentWrapper" v-loading="isLoading">
       <el-steps
+        class="steps"
         :space="200"
         :active="activeStep"
         align-center
         finish-status="success"
-        class="flex justify-center mb-12"
       >
         <el-step title="Amount"></el-step>
         <el-step title="Payment"></el-step>
@@ -55,8 +55,8 @@
 </template>
 
 <script>
-import SinglePaymentData from "../components/StripePayments/SinglePaymentData";
-import StripeSinglePayment from "../components/StripePayments/StripeSinglePayment";
+import SinglePaymentData from "../components/StripeSingle/UserSetup";
+import StripeSinglePayment from "../components/StripeSingle/StripeSinglePayment";
 export default {
   components: {
     StripeSinglePayment,
@@ -115,3 +115,13 @@ export default {
   },
 };
 </script>
+
+<style>
+.componentWrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.steps {
+  margin: 0 auto 1rem auto;
+}
+</style>

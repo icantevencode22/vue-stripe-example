@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import SubscriptionData from "../components/StripePayments/SubscriptionData.vue";
-import StripeSubscriptionPayment from "../components/StripePayments/StripeSubscriptionPayment.vue";
+import SubscriptionData from "../components/StripeSubscription/SubscriptionSetup";
+import StripeSubscriptionPayment from "../components/StripeSubscription/StripeSubscriptionPayment.vue";
 export default {
   components: {
     SubscriptionData,
