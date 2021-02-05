@@ -10,7 +10,8 @@
         <g-link class="nav__link" to="/update-subscription/"
           >Subscription Update</g-link
         >
-        <g-link class="nav__link" to="/stripe-single/">Single payment</g-link>
+        <g-link class="nav__link" to="/stripe-single/">Single payment w/ intent</g-link
+        ><g-link class="nav__link" to="/stripe-elements-token/">Single payment w/ token</g-link>
       </nav>
     </header>
     <slot />
